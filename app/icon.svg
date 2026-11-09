@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="15" fill="#00288e"/>
+  <path d="M8 32h48M32 8v48" stroke="#86f2e4" stroke-width="1.5" opacity=".28"/>
+  <text x="32" y="45" text-anchor="middle" font-family="serif" font-size="41" font-weight="700" fill="white">学</text>
+</svg>

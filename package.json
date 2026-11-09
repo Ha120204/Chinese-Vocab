@@ -1,0 +1,34 @@
+{
+  "name": "hoc-han-moi-ngay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "vocab:seed": "node scripts/seed-vocab.mjs",
+    "vocab:review": "node scripts/vocab-review.mjs",
+    "vocab:schedule": "node scripts/vocab-schedule.mjs",
+    "test:date": "node scripts/check-date.mjs",
+    "test:flow": "node scripts/check-m1b.cjs",
+    "test:production": "node scripts/check-production.cjs"
+  },
+  "dependencies": {
+    "@next/third-parties": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "playwright": "^1.65.0",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}

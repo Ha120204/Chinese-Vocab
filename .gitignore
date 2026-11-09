@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+.vercel/
+.env.local
+.env.*.local
+*.tsbuildinfo
+review/m1b-*.png
+review/hsk1-syllabus-reference.json
+
+.vercel
+.env*
