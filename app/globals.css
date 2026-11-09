@@ -10,12 +10,12 @@
   --color-muted: #5f6170;
   --radius-control: 12px;
   --radius-card: 16px;
-  --font-sans: var(--font-be-vietnam), Arial, sans-serif;
+  --font-sans: "Be Vietnam Pro", Arial, sans-serif;
 }
 :root { color-scheme: light; --navy:#00288e; --blue:#1e40af; --teal:#006a61; --red:#700006; --paper:#faf8ff; --ink:#131b2e; --muted:#5f6170; --line:#dce2f1; --pale:#edf0ff; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
-body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--font-be-vietnam),Arial,sans-serif; -webkit-font-smoothing:antialiased; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:"Be Vietnam Pro",Arial,sans-serif; -webkit-font-smoothing:antialiased; }
 h1,h2,h3,p { margin-top:0; }
 a { color:inherit; text-decoration:none; }
 button,input { font:inherit; }
