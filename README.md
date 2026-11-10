@@ -39,6 +39,7 @@ Mỗi trình duyệt được học tối đa 10 từ **mới** mỗi ngày theo
 
 - `NEXT_PUBLIC_SITE_URL`: URL chính thức, mặc định `https://trongphong0110.id.vn`.
 - `NEXT_PUBLIC_GA_MEASUREMENT_ID`: GA4 Measurement ID.
+- GA4 nạp sau 7 giây hoặc khi người dùng tương tác đầu tiên; các event phát sinh trước khi script sẵn sàng được xếp hàng và gửi sau khi GA4 khởi tạo.
 - `VOCAB_SHOW_UNREVIEWED`: cờ xem thử bản nháp ở production, mặc định `false`.
 - Tên site, điều hướng và footer: `lib/site-config.ts`.
 - Font Be Vietnam Pro và Noto Serif SC dùng giấy phép SIL OFL; xem `licenses/`.
