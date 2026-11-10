@@ -101,9 +101,13 @@ button:disabled { cursor:default; }
 .word-meaning { color:var(--ink); font-size:.9rem; margin:.6rem 0; }
 .speech-wrap { display:inline-flex; align-items:center; flex-wrap:wrap; gap:.3rem; }
 .icon-button { width:44px; height:44px; display:grid; place-items:center; border:1px solid #c6d7d4; border-radius:12px; background:#e7f7f3; color:#005049; font-size:.76rem; font-weight:800; }
+.speech-button svg { width:20px; height:20px; }
+.speech-button[aria-pressed="true"] { background:#d0eee8; border-color:#7dafaa; }
+.speech-status { color:var(--teal); font-size:.7rem; font-weight:700; }
 .speech-error { color:#8a251f; font-size:.7rem; max-width:240px; }
 .example { width:100%; border-top:1px solid var(--line); padding-top:1rem; margin-top:.55rem; }
-.example>span { color:var(--teal); font-size:.68rem; font-weight:800; letter-spacing:.1em; }
+.example-heading { display:flex; align-items:center; justify-content:space-between; gap:.5rem; flex-wrap:wrap; }
+.example-heading>span { color:var(--teal); font-size:.68rem; font-weight:800; letter-spacing:.1em; }
 .example p { color:var(--muted); font-size:.84rem; margin:.3rem 0; line-height:1.65; }
 .example .example-hanzi { font-family:var(--font-hanzi-subset),"Microsoft YaHei",serif; color:var(--ink); font-size:1.15rem; }
 .word-compact .hanzi { font-size:3.3rem; }

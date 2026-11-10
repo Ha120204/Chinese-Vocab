@@ -17,7 +17,8 @@
     "test:production": "node scripts/check-production.cjs",
     "check:m2": "node scripts/check-m2.cjs",
     "check:m2:ui": "node scripts/check-m2-ui.cjs",
-    "check:m3:ui": "node scripts/check-m3-ui.cjs"
+    "check:m3:ui": "node scripts/check-m3-ui.cjs",
+    "check:speech": "node scripts/check-speech.cjs"
   },
   "dependencies": {
     "@next/third-parties": "latest",
