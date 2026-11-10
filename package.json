@@ -11,11 +11,13 @@
     "vocab:seed:batch2": "node scripts/seed-vocab-batch2.mjs",
     "vocab:review": "node scripts/vocab-review.mjs",
     "vocab:schedule": "node scripts/vocab-schedule.mjs",
+    "og:fonts": "node scripts/generate-og-fonts.mjs",
     "test:date": "node scripts/check-date.mjs",
     "test:flow": "node scripts/check-m1b.cjs",
     "test:production": "node scripts/check-production.cjs",
     "check:m2": "node scripts/check-m2.cjs",
-    "check:m2:ui": "node scripts/check-m2-ui.cjs"
+    "check:m2:ui": "node scripts/check-m2-ui.cjs",
+    "check:m3:ui": "node scripts/check-m3-ui.cjs"
   },
   "dependencies": {
     "@next/third-parties": "latest",
@@ -30,6 +32,8 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "fontkit": "^2.0.4",
+    "lighthouse": "^13.6.0",
     "playwright": "^1.65.0",
     "postcss": "latest",
     "tailwindcss": "latest",

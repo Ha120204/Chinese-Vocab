@@ -14,6 +14,7 @@ npm run build
 npm run vocab:review
 npm run test:date
 npm run test:flow
+npm run check:m3:ui
 ```
 
 `test:flow` cần Playwright Chromium và server dev đang chạy ở `http://localhost:3000`. Bài kiểm tra chạy cả viewport 390px và 1440px: tìm kiếm, học 10 thẻ, quiz hai kiểu, chuyển ngày Việt Nam, xuất/nhập tiến độ. Ảnh QA lưu tại `review/m1b-home-*.png` và không đưa vào Git.
@@ -41,6 +42,12 @@ Mỗi trình duyệt được học tối đa 10 từ **mới** mỗi ngày theo
 - `VOCAB_SHOW_UNREVIEWED`: cờ xem thử bản nháp ở production, mặc định `false`.
 - Tên site, điều hướng và footer: `lib/site-config.ts`.
 - Font Be Vietnam Pro và Noto Serif SC dùng giấy phép SIL OFL; xem `licenses/`.
+
+## Ảnh chia sẻ và PWA
+
+Các trang chủ, Thư viện từ, Hỏi đáp và từng trang từ có ảnh OG riêng. Ảnh từ dùng chữ Hán, pinyin và nghĩa Việt. Font OG là bản TTF rút gọn tại `assets/og-fonts/`; mỗi khi thêm hoặc sửa đợt từ, chạy `npm run og:fonts` để tạo lại font và kiểm tra đủ glyph. Script cần mạng để tải font từ Google Fonts. Font giao diện vẫn dùng WOFF2 riêng.
+
+Manifest tại `/manifest.webmanifest` dùng logo 192/512px và apple-icon; trang chạy HTTPS để có thể thêm vào màn hình chính. `npm run check:m3:ui` kiểm tra viewport 390/1440px, vùng chạm, 404, OG metadata, phím tắt bài học và điều kiện cài PWA qua Chrome. Chạy Lighthouse mobile cho `/`, `/hoc` và `/tu/hsk1-147` bằng `npx lighthouse <URL> --only-categories=performance,accessibility,seo --output=json --output=html --output-path=reports/lighthouse/<tên> --chrome-flags="--headless --no-sandbox"`. Báo cáo lưu tại `reports/lighthouse/` và không đưa vào Git.
 
 ## Cộng đồng M2
 
