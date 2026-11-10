@@ -21,13 +21,13 @@ npm run test:flow
 ## Nội dung và duyệt
 
 - Nguồn đối chiếu **danh sách và số thứ tự**: [新版HSK考试大纲, HSK（一级）词汇](https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf), được liên kết từ [ChineseTest](https://www.chinesetest.cn/hsk). Bản chuyển đổi JSON chỉ dùng để kiểm tra `syllabusNo` và pinyin; nghĩa tiếng Việt, ví dụ Hán, pinyin ví dụ và bản dịch được biên soạn cho dự án này.
-- `data/vocab/hsk1-batch1.json`: 60 mục, tất cả khởi tạo `reviewed: false`.
+- `data/vocab/hsk1-batch1.json`: 60 mục đã được người phụ trách đối chiếu và đặt `reviewed: true`.
 - `review/hsk1-batch1.csv`: bản gửi người duyệt, gồm Hán, pinyin, nghĩa Việt, ví dụ Hán, pinyin và bản dịch.
 - `npm run vocab:review`: kiểm tra mục thiếu/trùng `syllabusNo`, thiếu nội dung và liệt kê mục chưa duyệt.
 - `npm run vocab:schedule`: sinh lịch Từ của ngày 90 ngày từ **các mục đã duyệt**. Có thể truyền số ngày: `npm run vocab:schedule -- 120`. Nếu ngày hiện tại chưa có trong lịch, website chọn một mục đã duyệt theo ngày Việt Nam một cách xác định.
-- Sau khi người duyệt trả CSV, cập nhật nội dung JSON và chỉ đặt `reviewed: true` cho các dòng được duyệt; chạy lại lệnh kiểm tra và sinh lịch. Không chạy `vocab:seed` sau khi duyệt vì lệnh này tái tạo bản nháp ban đầu.
+- Khi sửa nội dung, cập nhật `scripts/seed-vocab.mjs` rồi chạy `npm run vocab:seed`, `npm run vocab:review` và sinh lại lịch. Lệnh seed ghi đè JSON và CSV từ nguồn này.
 
-Production chỉ hiển thị mục `reviewed: true`. Môi trường dev xem được bản nháp. Để mở bản xem thử production trong thời gian duyệt, đặt `VOCAB_SHOW_UNREVIEWED=true` ở server và redeploy; các mục bản nháp có nhãn “Nội dung đang rà soát” và trang chi tiết đặt `noindex`. Tắt cờ sau khi duyệt.
+Production chỉ hiển thị mục `reviewed: true`. Môi trường dev xem được bản nháp. Cờ `VOCAB_SHOW_UNREVIEWED=true` chỉ dành cho bản xem thử nội dung chưa duyệt, cần redeploy để có hiệu lực. Với 60 mục hiện tại, cờ này không cần bật.
 
 ## Tiến độ học
 

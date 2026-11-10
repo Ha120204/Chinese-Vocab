@@ -9,11 +9,11 @@
     "meaningVi": "xin chào",
     "topic": "Giao tiếp",
     "example": {
-      "hanzi": "你好，我是林。",
-      "pinyin": "Nǐ hǎo, wǒ shì Lín.",
-      "translationVi": "Chào bạn, tôi là Lâm."
+      "hanzi": "你好，你喝茶吗？",
+      "pinyin": "Nǐ hǎo, nǐ hē chá ma?",
+      "translationVi": "Chào bạn, bạn uống trà không?"
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-221",
@@ -29,7 +29,7 @@
       "pinyin": "Wǒ shì xuéshēng.",
       "translationVi": "Tôi là học sinh."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-146",
@@ -45,7 +45,7 @@
       "pinyin": "Nǐ hǎo ma?",
       "translationVi": "Bạn có khỏe không?"
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-200",
@@ -61,7 +61,7 @@
       "pinyin": "Tā shì wǒ de péngyou.",
       "translationVi": "Anh ấy là bạn của tôi."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-202",
@@ -77,7 +77,7 @@
       "pinyin": "Tā shì lǎoshī.",
       "translationVi": "Cô ấy là giáo viên."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-188",
@@ -89,11 +89,11 @@
     "meaningVi": "là",
     "topic": "Giao tiếp",
     "example": {
-      "hanzi": "我是越南人。",
-      "pinyin": "Wǒ shì Yuènán rén.",
-      "translationVi": "Tôi là người Việt Nam."
+      "hanzi": "她是我的老师。",
+      "pinyin": "Tā shì wǒ de lǎoshī.",
+      "translationVi": "Cô ấy là giáo viên của tôi."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-115",
@@ -109,7 +109,7 @@
       "pinyin": "Nǐ shì xuéshēng ma?",
       "translationVi": "Bạn là học sinh phải không?"
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-13",
@@ -125,7 +125,7 @@
       "pinyin": "Wǒ bù hē chá.",
       "translationVi": "Tôi không uống trà."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-79",
@@ -141,7 +141,7 @@
       "pinyin": "Jīntiān hěn rè.",
       "translationVi": "Hôm nay rất nóng."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-71",
@@ -157,7 +157,7 @@
       "pinyin": "Wǒ de péngyou hěn hǎo.",
       "translationVi": "Bạn của tôi rất tốt."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-170",
@@ -173,7 +173,7 @@
       "pinyin": "Zhèlǐ yǒu sān ge rén.",
       "translationVi": "Ở đây có ba người."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-86",
@@ -189,7 +189,7 @@
       "pinyin": "Wǒ xiǎng huí jiā.",
       "translationVi": "Tôi muốn về nhà."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-87",
@@ -198,14 +198,14 @@
     "syllabusNo": 87,
     "hanzi": "家人",
     "pinyin": "jiārén",
-    "meaningVi": "người nhà",
+    "meaningVi": "người nhà; người thân",
     "topic": "Gia đình",
     "example": {
       "hanzi": "我的家人都很好。",
       "pinyin": "Wǒ de jiārén dōu hěn hǎo.",
-      "translationVi": "Người nhà tôi đều khỏe."
+      "translationVi": "Mọi người trong gia đình tôi đều khỏe."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-3",
@@ -221,7 +221,7 @@
       "pinyin": "Bàba zài jiā.",
       "translationVi": "Bố ở nhà."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-114",
@@ -237,7 +237,7 @@
       "pinyin": "Māma xǐhuan hē chá.",
       "translationVi": "Mẹ thích uống trà."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-59",
@@ -253,7 +253,7 @@
       "pinyin": "Gēge zài xuéxiào.",
       "translationVi": "Anh trai ở trường."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-32",
@@ -269,7 +269,7 @@
       "pinyin": "Dìdi jīnnián liù suì.",
       "translationVi": "Em trai năm nay sáu tuổi."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-92",
@@ -285,7 +285,7 @@
       "pinyin": "Jiějie huì xiě Hànzì.",
       "translationVi": "Chị gái biết viết chữ Hán."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-123",
@@ -301,7 +301,7 @@
       "pinyin": "Mèimei xǐhuan píngguǒ.",
       "translationVi": "Em gái thích táo."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-156",
@@ -310,14 +310,14 @@
     "syllabusNo": 156,
     "hanzi": "朋友",
     "pinyin": "péngyou",
-    "meaningVi": "bạn bè",
+    "meaningVi": "bạn",
     "topic": "Gia đình",
     "example": {
-      "hanzi": "他是我的朋友。",
-      "pinyin": "Tā shì wǒ de péngyou.",
-      "translationVi": "Anh ấy là bạn của tôi."
+      "hanzi": "我的朋友在学校。",
+      "pinyin": "Wǒ de péngyou zài xuéxiào.",
+      "translationVi": "Bạn tôi ở trường."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-254",
@@ -333,7 +333,7 @@
       "pinyin": "Wǒ yǒu yì běn shū.",
       "translationVi": "Tôi có một quyển sách."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-49",
@@ -349,7 +349,7 @@
       "pinyin": "Jīntiān shì èr yuè èr rì.",
       "translationVi": "Hôm nay là ngày hai tháng hai."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-173",
@@ -361,11 +361,11 @@
     "meaningVi": "ba",
     "topic": "Con số",
     "example": {
-      "hanzi": "桌上有三个苹果。",
-      "pinyin": "Zhuō shang yǒu sān ge píngguǒ.",
-      "translationVi": "Trên bàn có ba quả táo."
+      "hanzi": "我有三个苹果。",
+      "pinyin": "Wǒ yǒu sān ge píngguǒ.",
+      "translationVi": "Tôi có ba quả táo."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-198",
@@ -381,7 +381,7 @@
       "pinyin": "Wǒmen jiā yǒu sì ge rén.",
       "translationVi": "Nhà chúng tôi có bốn người."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-223",
@@ -397,7 +397,7 @@
       "pinyin": "Xiànzài shì wǔ diǎn.",
       "translationVi": "Bây giờ là năm giờ."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-113",
@@ -413,7 +413,7 @@
       "pinyin": "Wǒ mǎi le liù ge bāozi.",
       "translationVi": "Tôi đã mua sáu chiếc bánh bao."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-160",
@@ -425,11 +425,11 @@
     "meaningVi": "bảy",
     "topic": "Con số",
     "example": {
-      "hanzi": "一周有七天。",
-      "pinyin": "Yì zhōu yǒu qī tiān.",
-      "translationVi": "Một tuần có bảy ngày."
+      "hanzi": "现在是七月。",
+      "pinyin": "Xiànzài shì qī yuè.",
+      "translationVi": "Bây giờ là tháng Bảy."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-2",
@@ -445,7 +445,7 @@
       "pinyin": "Wǒ bā diǎn qù xuéxiào.",
       "translationVi": "Tôi đi học lúc tám giờ."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-95",
@@ -461,7 +461,7 @@
       "pinyin": "Tā jiǔ suì le.",
       "translationVi": "Cô ấy chín tuổi rồi."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-184",
@@ -473,11 +473,11 @@
     "meaningVi": "mười",
     "topic": "Con số",
     "example": {
-      "hanzi": "这本书有十页。",
-      "pinyin": "Zhè běn shū yǒu shí yè.",
-      "translationVi": "Quyển sách này có mười trang."
+      "hanzi": "我有十本书。",
+      "pinyin": "Wǒ yǒu shí běn shū.",
+      "translationVi": "Tôi có mười quyển sách."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-94",
@@ -493,7 +493,7 @@
       "pinyin": "Jīntiān wǒ xuéxí Hànyǔ.",
       "translationVi": "Hôm nay tôi học tiếng Trung."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-129",
@@ -509,7 +509,7 @@
       "pinyin": "Míngtiān wǒ qù xuéxiào.",
       "translationVi": "Ngày mai tôi đến trường."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-297",
@@ -525,7 +525,7 @@
       "pinyin": "Zuótiān wǒ zài jiā.",
       "translationVi": "Hôm qua tôi ở nhà."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-232",
@@ -541,7 +541,7 @@
       "pinyin": "Xiànzài shì shàngwǔ jiǔ diǎn.",
       "translationVi": "Bây giờ là chín giờ sáng."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-275",
@@ -550,14 +550,14 @@
     "syllabusNo": 275,
     "hanzi": "早上",
     "pinyin": "zǎoshang",
-    "meaningVi": "sáng sớm",
+    "meaningVi": "buổi sáng; sáng sớm",
     "topic": "Thời gian",
     "example": {
       "hanzi": "早上我喝水。",
       "pinyin": "Zǎoshang wǒ hē shuǐ.",
       "translationVi": "Buổi sáng tôi uống nước."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-178",
@@ -573,7 +573,7 @@
       "pinyin": "Shàngwǔ wǒmen yǒu Hànyǔ kè.",
       "translationVi": "Buổi sáng chúng tôi có tiết tiếng Trung."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-291",
@@ -589,7 +589,7 @@
       "pinyin": "Zhōngwǔ wǒ chī mǐfàn.",
       "translationVi": "Buổi trưa tôi ăn cơm."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-230",
@@ -602,10 +602,10 @@
     "topic": "Thời gian",
     "example": {
       "hanzi": "下午我读书。",
-      "pinyin": "Xiàwǔ wǒ dú shū.",
+      "pinyin": "Xiàwǔ wǒ dúshū.",
       "translationVi": "Buổi chiều tôi đọc sách."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-217",
@@ -621,7 +621,7 @@
       "pinyin": "Wǎnshang tā zài jiā xuéxí.",
       "translationVi": "Buổi tối cô ấy học ở nhà."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-186",
@@ -634,10 +634,10 @@
     "topic": "Thời gian",
     "example": {
       "hanzi": "我有时间读书。",
-      "pinyin": "Wǒ yǒu shíjiān dú shū.",
+      "pinyin": "Wǒ yǒu shíjiān dúshū.",
       "translationVi": "Tôi có thời gian đọc sách."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-247",
@@ -653,7 +653,7 @@
       "pinyin": "Wǒ xué Hànyǔ.",
       "translationVi": "Tôi học tiếng Trung."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-249",
@@ -665,11 +665,11 @@
     "meaningVi": "học tập",
     "topic": "Học tập",
     "example": {
-      "hanzi": "我们一起学习。",
-      "pinyin": "Wǒmen yìqǐ xuéxí.",
-      "translationVi": "Chúng tôi cùng nhau học."
+      "hanzi": "我们在学校学习。",
+      "pinyin": "Wǒmen zài xuéxiào xuéxí.",
+      "translationVi": "Chúng tôi học ở trường."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-248",
@@ -685,7 +685,7 @@
       "pinyin": "Tā shì xuéshēng.",
       "translationVi": "Cô ấy là học sinh."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-107",
@@ -697,11 +697,11 @@
     "meaningVi": "giáo viên",
     "topic": "Học tập",
     "example": {
-      "hanzi": "老师在教室。",
-      "pinyin": "Lǎoshī zài jiàoshì.",
-      "translationVi": "Giáo viên ở trong lớp học."
+      "hanzi": "老师在学校。",
+      "pinyin": "Lǎoshī zài xuéxiào.",
+      "translationVi": "Giáo viên ở trường."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-250",
@@ -717,7 +717,7 @@
       "pinyin": "Wǒ de xuéxiào hěn dà.",
       "translationVi": "Trường của tôi rất lớn."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-190",
@@ -733,7 +733,7 @@
       "pinyin": "Zhè běn shū hěn hǎo.",
       "translationVi": "Quyển sách này rất hay."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-42",
@@ -749,7 +749,7 @@
       "pinyin": "Wǒ dú zhè běn shū.",
       "translationVi": "Tôi đọc quyển sách này."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-240",
@@ -765,7 +765,7 @@
       "pinyin": "Qǐng xiě nǐ de míngzi.",
       "translationVi": "Hãy viết tên của bạn."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-103",
@@ -781,7 +781,7 @@
       "pinyin": "Jīntiān yǒu Hànyǔ kè.",
       "translationVi": "Hôm nay có tiết tiếng Trung."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-69",
@@ -797,7 +797,7 @@
       "pinyin": "Wǒ xǐhuan xuéxí Hànyǔ.",
       "translationVi": "Tôi thích học tiếng Trung."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-21",
@@ -809,11 +809,11 @@
     "meaningVi": "ăn",
     "topic": "Ăn uống",
     "example": {
-      "hanzi": "我们一起吃饭。",
-      "pinyin": "Wǒmen yìqǐ chī fàn.",
-      "translationVi": "Chúng ta cùng ăn cơm."
+      "hanzi": "我们吃饭。",
+      "pinyin": "Wǒmen chī fàn.",
+      "translationVi": "Chúng tôi ăn cơm."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-77",
@@ -829,7 +829,7 @@
       "pinyin": "Wǒ xiǎng hē shuǐ.",
       "translationVi": "Tôi muốn uống nước."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-192",
@@ -841,11 +841,11 @@
     "meaningVi": "nước",
     "topic": "Ăn uống",
     "example": {
-      "hanzi": "桌上有一杯水。",
-      "pinyin": "Zhuō shang yǒu yì bēi shuǐ.",
-      "translationVi": "Trên bàn có một cốc nước."
+      "hanzi": "我喝水。",
+      "pinyin": "Wǒ hē shuǐ.",
+      "translationVi": "Tôi uống nước."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-17",
@@ -857,11 +857,11 @@
     "meaningVi": "trà",
     "topic": "Ăn uống",
     "example": {
-      "hanzi": "爸爸每天喝茶。",
-      "pinyin": "Bàba měitiān hē chá.",
-      "translationVi": "Bố uống trà mỗi ngày."
+      "hanzi": "爸爸喝茶，妈妈喝水。",
+      "pinyin": "Bàba hē chá, māma hē shuǐ.",
+      "translationVi": "Bố uống trà, mẹ uống nước."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-50",
@@ -875,9 +875,9 @@
     "example": {
       "hanzi": "妈妈在做饭。",
       "pinyin": "Māma zài zuò fàn.",
-      "translationVi": "Mẹ đang nấu cơm."
+      "translationVi": "Mẹ đang nấu ăn."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-125",
@@ -886,14 +886,14 @@
     "syllabusNo": 125,
     "hanzi": "米饭",
     "pinyin": "mǐfàn",
-    "meaningVi": "cơm nấu",
+    "meaningVi": "cơm",
     "topic": "Ăn uống",
     "example": {
       "hanzi": "我喜欢吃米饭。",
       "pinyin": "Wǒ xǐhuan chī mǐfàn.",
       "translationVi": "Tôi thích ăn cơm."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-16",
@@ -909,7 +909,7 @@
       "pinyin": "Zhège cài hěn hǎochī.",
       "translationVi": "Món này rất ngon."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-193",
@@ -921,11 +921,11 @@
     "meaningVi": "trái cây",
     "topic": "Ăn uống",
     "example": {
-      "hanzi": "我每天吃水果。",
-      "pinyin": "Wǒ měitiān chī shuǐguǒ.",
-      "translationVi": "Tôi ăn trái cây mỗi ngày."
+      "hanzi": "水果很好吃。",
+      "pinyin": "Shuǐguǒ hěn hǎochī.",
+      "translationVi": "Trái cây rất ngon."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-159",
@@ -941,7 +941,7 @@
       "pinyin": "Tā mǎi le liǎng ge píngguǒ.",
       "translationVi": "Cô ấy đã mua hai quả táo."
     },
-    "reviewed": false
+    "reviewed": true
   },
   {
     "id": "hsk1-225",
@@ -957,6 +957,6 @@
       "pinyin": "Nǐ xǐhuan hē chá ma?",
       "translationVi": "Bạn thích uống trà không?"
     },
-    "reviewed": false
+    "reviewed": true
   }
 ]
