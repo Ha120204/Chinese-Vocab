@@ -1,6 +1,8 @@
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
 const base=(process.env.TEST_BASE_URL||'http://localhost:3001').replace(/\/$/,'');
+const schedule=require('../data/vocab/daily-schedule.json');
+const words=[...require('../data/vocab/hsk1-batch1.json'),...require('../data/vocab/hsk1-batch2.json')];
 (async()=>{
  const browser=await chromium.launch({headless:true});const page=await browser.newPage();
  const home=await page.goto(`${base}/`);assert.equal(home.status(),200);
@@ -9,12 +11,17 @@ const base=(process.env.TEST_BASE_URL||'http://localhost:3001').replace(/\/$/,''
  assert.match(await page.locator('.daily-panel').innerText(),/TỪ CỦA NGÀY/);
  assert.equal(await page.locator('.daily-panel .word-display').count(),1);
  assert.equal(await page.locator('.daily-panel .badge-draft').count(),0);
+ const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Ho_Chi_Minh',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+ const expected=words.find(word=>word.id===schedule[today]);
+ if(expected)assert.equal(await page.locator('.daily-panel .hanzi').innerText(),expected.hanzi);
  await page.goto(`${base}/thu-vien`);
- assert.equal(await page.locator('.library-grid .word-display').count(),60);
- assert.match(await page.locator('.library-count').innerText(),/60 mục/);
+ assert.equal(await page.locator('.library-grid .word-display').count(),120);
+ assert.match(await page.locator('.library-count').innerText(),/120 mục/);
  const detail=await page.goto(`${base}/tu/hsk1-147`);assert.equal(detail.status(),200);
+ const second=await page.goto(`${base}/tu/hsk1-8`);assert.equal(second.status(),200);
  const sitemap=await (await page.request.get(`${base}/sitemap.xml`)).text();
  assert.equal(sitemap.includes('/tu/hsk1-147'),true);
- console.log(`PASS ${base}: lesson, daily word, 60 library entries, detail and sitemap`);
+ assert.equal(sitemap.includes('/tu/hsk1-8'),true);
+ console.log(`PASS ${base}: lesson, daily word, 120 library entries, both batches' details and sitemap`);
  await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

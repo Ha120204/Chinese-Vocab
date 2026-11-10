@@ -8,6 +8,7 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "vocab:seed": "node scripts/seed-vocab.mjs",
+    "vocab:seed:batch2": "node scripts/seed-vocab-batch2.mjs",
     "vocab:review": "node scripts/vocab-review.mjs",
     "vocab:schedule": "node scripts/vocab-schedule.mjs",
     "test:date": "node scripts/check-date.mjs",

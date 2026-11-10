@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import batch1 from '@/data/vocab/hsk1-batch1.json';
+import batch2 from '@/data/vocab/hsk1-batch2.json';
 import dailySchedule from '@/data/vocab/daily-schedule.json';
 import { vietnamDate } from '@/lib/date';
 import { normalizeSearch } from '@/lib/search';
@@ -12,7 +13,7 @@ const wordSchema = z.object({
   reviewed: z.boolean(),
 });
 export type VocabWord = z.infer<typeof wordSchema>;
-const allWords = z.array(wordSchema).parse(batch1).sort((a,b)=>a.order-b.order);
+const allWords = z.array(wordSchema).parse([...batch1,...batch2]).sort((a,b)=>a.order-b.order);
 const ids = new Set<string>();
 const numbers = new Set<string>();
 for (const word of allWords) {

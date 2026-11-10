@@ -1,0 +1,962 @@
+[
+  {
+    "id": "hsk1-8",
+    "level": 1,
+    "order": 61,
+    "syllabusNo": 8,
+    "hanzi": "包子",
+    "pinyin": "bāozi",
+    "meaningVi": "bánh bao",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "我早饭吃包子。",
+      "pinyin": "Wǒ zǎofàn chī bāozi.",
+      "translationVi": "Bữa sáng tôi ăn bánh bao."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-90",
+    "level": 1,
+    "order": 62,
+    "syllabusNo": 90,
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "meaningVi": "sủi cảo",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "我喜欢吃饺子。",
+      "pinyin": "Wǒ xǐhuan chī jiǎozi.",
+      "translationVi": "Tôi thích ăn sủi cảo."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-126",
+    "level": 1,
+    "order": 63,
+    "syllabusNo": 126,
+    "hanzi": "面包",
+    "pinyin": "miànbāo",
+    "meaningVi": "bánh mì",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "早上我吃面包。",
+      "pinyin": "Zǎoshang wǒ chī miànbāo.",
+      "translationVi": "Buổi sáng tôi ăn bánh mì."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-127",
+    "level": 1,
+    "order": 64,
+    "syllabusNo": 127,
+    "hanzi": "面条儿",
+    "pinyin": "miàntiáor",
+    "meaningVi": "mì sợi",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "我中午吃面条儿。",
+      "pinyin": "Wǒ zhōngwǔ chī miàntiáor.",
+      "translationVi": "Buổi trưa tôi ăn mì."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-84",
+    "level": 1,
+    "order": 65,
+    "syllabusNo": 84,
+    "hanzi": "鸡蛋",
+    "pinyin": "jīdàn",
+    "meaningVi": "trứng gà",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "早饭我吃鸡蛋。",
+      "pinyin": "Zǎofàn wǒ chī jīdàn.",
+      "translationVi": "Bữa sáng tôi ăn trứng gà."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-151",
+    "level": 1,
+    "order": 66,
+    "syllabusNo": 151,
+    "hanzi": "牛奶",
+    "pinyin": "niúnǎi",
+    "meaningVi": "sữa bò",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "我早上喝牛奶。",
+      "pinyin": "Wǒ zǎoshang hē niúnǎi.",
+      "translationVi": "Buổi sáng tôi uống sữa bò."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-9",
+    "level": 1,
+    "order": 67,
+    "syllabusNo": 9,
+    "hanzi": "杯子",
+    "pinyin": "bēizi",
+    "meaningVi": "cái cốc; cái ly",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "杯子里有水。",
+      "pinyin": "Bēizi lǐ yǒu shuǐ.",
+      "translationVi": "Trong cốc có nước."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-72",
+    "level": 1,
+    "order": 68,
+    "syllabusNo": 72,
+    "hanzi": "好吃",
+    "pinyin": "hǎochī",
+    "meaningVi": "ngon (đồ ăn)",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "这个包子很好吃。",
+      "pinyin": "Zhège bāozi hěn hǎochī.",
+      "translationVi": "Chiếc bánh bao này rất ngon."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-274",
+    "level": 1,
+    "order": 69,
+    "syllabusNo": 274,
+    "hanzi": "早饭",
+    "pinyin": "zǎofàn",
+    "meaningVi": "bữa sáng",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "我在家吃早饭。",
+      "pinyin": "Wǒ zài jiā chī zǎofàn.",
+      "translationVi": "Tôi ăn sáng ở nhà."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-224",
+    "level": 1,
+    "order": 70,
+    "syllabusNo": 224,
+    "hanzi": "午饭",
+    "pinyin": "wǔfàn",
+    "meaningVi": "bữa trưa",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "今天的午饭很好吃。",
+      "pinyin": "Jīntiān de wǔfàn hěn hǎochī.",
+      "translationVi": "Bữa trưa hôm nay rất ngon."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-216",
+    "level": 1,
+    "order": 71,
+    "syllabusNo": 216,
+    "hanzi": "晚饭",
+    "pinyin": "wǎnfàn",
+    "meaningVi": "bữa tối",
+    "topic": "Ăn uống",
+    "example": {
+      "hanzi": "我和家人吃晚饭。",
+      "pinyin": "Wǒ hé jiārén chī wǎnfàn.",
+      "translationVi": "Tôi ăn tối cùng gia đình."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-116",
+    "level": 1,
+    "order": 72,
+    "syllabusNo": 116,
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "meaningVi": "mua",
+    "topic": "Mua sắm",
+    "example": {
+      "hanzi": "我买苹果。",
+      "pinyin": "Wǒ mǎi píngguǒ.",
+      "translationVi": "Tôi mua táo."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-117",
+    "level": 1,
+    "order": 73,
+    "syllabusNo": 117,
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "meaningVi": "bán",
+    "topic": "Mua sắm",
+    "example": {
+      "hanzi": "商店卖水果。",
+      "pinyin": "Shāngdiàn mài shuǐguǒ.",
+      "translationVi": "Cửa hàng bán trái cây."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-174",
+    "level": 1,
+    "order": 74,
+    "syllabusNo": 174,
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "meaningVi": "cửa hàng",
+    "topic": "Mua sắm",
+    "example": {
+      "hanzi": "这家商店很大。",
+      "pinyin": "Zhè jiā shāngdiàn hěn dà.",
+      "translationVi": "Cửa hàng này rất lớn."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-19",
+    "level": 1,
+    "order": 75,
+    "syllabusNo": 19,
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "meaningVi": "siêu thị",
+    "topic": "Mua sắm",
+    "example": {
+      "hanzi": "我去超市买牛奶。",
+      "pinyin": "Wǒ qù chāoshì mǎi niúnǎi.",
+      "translationVi": "Tôi đến siêu thị mua sữa bò."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-164",
+    "level": 1,
+    "order": 76,
+    "syllabusNo": 164,
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "meaningVi": "tiền",
+    "topic": "Mua sắm",
+    "example": {
+      "hanzi": "我没有钱。",
+      "pinyin": "Wǒ méiyǒu qián.",
+      "translationVi": "Tôi không có tiền."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-268",
+    "level": 1,
+    "order": 77,
+    "syllabusNo": 268,
+    "hanzi": "元",
+    "pinyin": "yuán",
+    "meaningVi": "tệ (đơn vị tiền)",
+    "topic": "Mua sắm",
+    "example": {
+      "hanzi": "这个包子五元。",
+      "pinyin": "Zhège bāozi wǔ yuán.",
+      "translationVi": "Chiếc bánh bao này giá năm tệ."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-105",
+    "level": 1,
+    "order": 78,
+    "syllabusNo": 105,
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "meaningVi": "đồng (tiền); miếng",
+    "topic": "Mua sắm",
+    "example": {
+      "hanzi": "这个苹果两块钱。",
+      "pinyin": "Zhège píngguǒ liǎng kuài qián.",
+      "translationVi": "Quả táo này giá hai tệ."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-65",
+    "level": 1,
+    "order": 79,
+    "syllabusNo": 65,
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "meaningVi": "đắt",
+    "topic": "Mua sắm",
+    "example": {
+      "hanzi": "这个苹果很贵。",
+      "pinyin": "Zhège píngguǒ hěn guì.",
+      "translationVi": "Quả táo này rất đắt."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-157",
+    "level": 1,
+    "order": 80,
+    "syllabusNo": 157,
+    "hanzi": "便宜",
+    "pinyin": "piányi",
+    "meaningVi": "rẻ",
+    "topic": "Mua sắm",
+    "example": {
+      "hanzi": "这个包子很便宜。",
+      "pinyin": "Zhège bāozi hěn piányi.",
+      "translationVi": "Chiếc bánh bao này rất rẻ."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-167",
+    "level": 1,
+    "order": 81,
+    "syllabusNo": 167,
+    "hanzi": "去",
+    "pinyin": "qù",
+    "meaningVi": "đi; đến",
+    "topic": "Đi lại",
+    "example": {
+      "hanzi": "我去学校。",
+      "pinyin": "Wǒ qù xuéxiào.",
+      "translationVi": "Tôi đến trường."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-106",
+    "level": 1,
+    "order": 82,
+    "syllabusNo": 106,
+    "hanzi": "来",
+    "pinyin": "lái",
+    "meaningVi": "đến; tới",
+    "topic": "Đi lại",
+    "example": {
+      "hanzi": "请来我家吃饭。",
+      "pinyin": "Qǐng lái wǒ jiā chī fàn.",
+      "translationVi": "Mời bạn đến nhà tôi ăn cơm."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-81",
+    "level": 1,
+    "order": 83,
+    "syllabusNo": 81,
+    "hanzi": "回",
+    "pinyin": "huí",
+    "meaningVi": "về; quay lại",
+    "topic": "Đi lại",
+    "example": {
+      "hanzi": "下午我回家。",
+      "pinyin": "Xiàwǔ wǒ huí jiā.",
+      "translationVi": "Buổi chiều tôi về nhà."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-29",
+    "level": 1,
+    "order": 84,
+    "syllabusNo": 29,
+    "hanzi": "到",
+    "pinyin": "dào",
+    "meaningVi": "đến; tới",
+    "topic": "Đi lại",
+    "example": {
+      "hanzi": "我八点到学校。",
+      "pinyin": "Wǒ bā diǎn dào xuéxiào.",
+      "translationVi": "Tôi đến trường lúc tám giờ."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-20",
+    "level": 1,
+    "order": 85,
+    "syllabusNo": 20,
+    "hanzi": "车",
+    "pinyin": "chē",
+    "meaningVi": "xe",
+    "topic": "Đi lại",
+    "example": {
+      "hanzi": "这是什么车？",
+      "pinyin": "Zhè shì shénme chē?",
+      "translationVi": "Đây là xe gì?"
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-22",
+    "level": 1,
+    "order": 86,
+    "syllabusNo": 22,
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "meaningVi": "xe taxi",
+    "topic": "Đi lại",
+    "example": {
+      "hanzi": "我坐出租车去学校。",
+      "pinyin": "Wǒ zuò chūzūchē qù xuéxiào.",
+      "translationVi": "Tôi đi taxi đến trường."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-83",
+    "level": 1,
+    "order": 87,
+    "syllabusNo": 83,
+    "hanzi": "火车",
+    "pinyin": "huǒchē",
+    "meaningVi": "tàu hỏa",
+    "topic": "Đi lại",
+    "example": {
+      "hanzi": "他坐火车来。",
+      "pinyin": "Tā zuò huǒchē lái.",
+      "translationVi": "Anh ấy đến bằng tàu hỏa."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-54",
+    "level": 1,
+    "order": 88,
+    "syllabusNo": 54,
+    "hanzi": "飞机",
+    "pinyin": "fēijī",
+    "meaningVi": "máy bay",
+    "topic": "Đi lại",
+    "example": {
+      "hanzi": "我坐飞机去中国。",
+      "pinyin": "Wǒ zuò fēijī qù Zhōngguó.",
+      "translationVi": "Tôi đi máy bay đến Trung Quốc."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-98",
+    "level": 1,
+    "order": 89,
+    "syllabusNo": 98,
+    "hanzi": "开车",
+    "pinyin": "kāichē",
+    "meaningVi": "lái xe",
+    "topic": "Đi lại",
+    "example": {
+      "hanzi": "爸爸今天开车。",
+      "pinyin": "Bàba jīntiān kāichē.",
+      "translationVi": "Hôm nay bố lái xe."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-51",
+    "level": 1,
+    "order": 90,
+    "syllabusNo": 51,
+    "hanzi": "饭店",
+    "pinyin": "fàndiàn",
+    "meaningVi": "nhà hàng",
+    "topic": "Đi lại",
+    "example": {
+      "hanzi": "我们在饭店吃饭。",
+      "pinyin": "Wǒmen zài fàndiàn chī fàn.",
+      "translationVi": "Chúng tôi ăn ở nhà hàng."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-161",
+    "level": 1,
+    "order": 91,
+    "syllabusNo": 161,
+    "hanzi": "起床",
+    "pinyin": "qǐchuáng",
+    "meaningVi": "thức dậy",
+    "topic": "Sinh hoạt",
+    "example": {
+      "hanzi": "我早上六点起床。",
+      "pinyin": "Wǒ zǎoshang liù diǎn qǐchuáng.",
+      "translationVi": "Tôi thức dậy lúc sáu giờ sáng."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-195",
+    "level": 1,
+    "order": 92,
+    "syllabusNo": 195,
+    "hanzi": "睡觉",
+    "pinyin": "shuìjiào",
+    "meaningVi": "ngủ",
+    "topic": "Sinh hoạt",
+    "example": {
+      "hanzi": "妹妹晚上九点睡觉。",
+      "pinyin": "Mèimei wǎnshang jiǔ diǎn shuìjiào.",
+      "translationVi": "Em gái ngủ lúc chín giờ tối."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-179",
+    "level": 1,
+    "order": 93,
+    "syllabusNo": 179,
+    "hanzi": "上学",
+    "pinyin": "shàngxué",
+    "meaningVi": "đi học",
+    "topic": "Sinh hoạt",
+    "example": {
+      "hanzi": "弟弟早上上学。",
+      "pinyin": "Dìdi zǎoshang shàngxué.",
+      "translationVi": "Em trai đi học vào buổi sáng."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-177",
+    "level": 1,
+    "order": 94,
+    "syllabusNo": 177,
+    "hanzi": "上课",
+    "pinyin": "shàngkè",
+    "meaningVi": "vào học; học trên lớp",
+    "topic": "Sinh hoạt",
+    "example": {
+      "hanzi": "我们八点上课。",
+      "pinyin": "Wǒmen bā diǎn shàngkè.",
+      "translationVi": "Chúng tôi vào học lúc tám giờ."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-229",
+    "level": 1,
+    "order": 95,
+    "syllabusNo": 229,
+    "hanzi": "下课",
+    "pinyin": "xiàkè",
+    "meaningVi": "tan học; hết giờ học",
+    "topic": "Sinh hoạt",
+    "example": {
+      "hanzi": "下午三点下课。",
+      "pinyin": "Xiàwǔ sān diǎn xiàkè.",
+      "translationVi": "Tan học lúc ba giờ chiều."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-176",
+    "level": 1,
+    "order": 96,
+    "syllabusNo": 176,
+    "hanzi": "上班",
+    "pinyin": "shàngbān",
+    "meaningVi": "đi làm",
+    "topic": "Sinh hoạt",
+    "example": {
+      "hanzi": "妈妈早上八点上班。",
+      "pinyin": "Māma zǎoshang bā diǎn shàngbān.",
+      "translationVi": "Mẹ đi làm lúc tám giờ sáng."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-228",
+    "level": 1,
+    "order": 97,
+    "syllabusNo": 228,
+    "hanzi": "下班",
+    "pinyin": "xiàbān",
+    "meaningVi": "tan làm",
+    "topic": "Sinh hoạt",
+    "example": {
+      "hanzi": "爸爸下午五点下班。",
+      "pinyin": "Bàba xiàwǔ wǔ diǎn xiàbān.",
+      "translationVi": "Bố tan làm lúc năm giờ chiều."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-63",
+    "level": 1,
+    "order": 98,
+    "syllabusNo": 63,
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "meaningVi": "làm việc; công việc",
+    "topic": "Sinh hoạt",
+    "example": {
+      "hanzi": "姐姐在医院工作。",
+      "pinyin": "Jiějie zài yīyuàn gōngzuò.",
+      "translationVi": "Chị gái làm việc ở bệnh viện."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-246",
+    "level": 1,
+    "order": 99,
+    "syllabusNo": 246,
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "meaningVi": "nghỉ ngơi",
+    "topic": "Sinh hoạt",
+    "example": {
+      "hanzi": "今天我想休息。",
+      "pinyin": "Jīntiān wǒ xiǎng xiūxi.",
+      "translationVi": "Hôm nay tôi muốn nghỉ ngơi."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-118",
+    "level": 1,
+    "order": 100,
+    "syllabusNo": 118,
+    "hanzi": "忙",
+    "pinyin": "máng",
+    "meaningVi": "bận",
+    "topic": "Sinh hoạt",
+    "example": {
+      "hanzi": "老师今天很忙。",
+      "pinyin": "Lǎoshī jīntiān hěn máng.",
+      "translationVi": "Hôm nay giáo viên rất bận."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-196",
+    "level": 1,
+    "order": 101,
+    "syllabusNo": 196,
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "meaningVi": "nói",
+    "topic": "Giao tiếp",
+    "example": {
+      "hanzi": "请说汉语。",
+      "pinyin": "Qǐng shuō Hànyǔ.",
+      "translationVi": "Xin hãy nói tiếng Trung."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-197",
+    "level": 1,
+    "order": 102,
+    "syllabusNo": 197,
+    "hanzi": "说话",
+    "pinyin": "shuōhuà",
+    "meaningVi": "nói chuyện",
+    "topic": "Giao tiếp",
+    "example": {
+      "hanzi": "他们在说话。",
+      "pinyin": "Tāmen zài shuōhuà.",
+      "translationVi": "Họ đang nói chuyện."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-209",
+    "level": 1,
+    "order": 103,
+    "syllabusNo": 209,
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "meaningVi": "nghe",
+    "topic": "Giao tiếp",
+    "example": {
+      "hanzi": "我听你说话。",
+      "pinyin": "Wǒ tīng nǐ shuōhuà.",
+      "translationVi": "Tôi nghe bạn nói."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-210",
+    "level": 1,
+    "order": 104,
+    "syllabusNo": 210,
+    "hanzi": "听见",
+    "pinyin": "tīngjiàn",
+    "meaningVi": "nghe thấy",
+    "topic": "Giao tiếp",
+    "example": {
+      "hanzi": "我听见爸爸说话。",
+      "pinyin": "Wǒ tīngjiàn bàba shuōhuà.",
+      "translationVi": "Tôi nghe thấy bố nói chuyện."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-99",
+    "level": 1,
+    "order": 105,
+    "syllabusNo": 99,
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "meaningVi": "xem; nhìn",
+    "topic": "Giao tiếp",
+    "example": {
+      "hanzi": "我看电影。",
+      "pinyin": "Wǒ kàn diànyǐng.",
+      "translationVi": "Tôi xem phim."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-101",
+    "level": 1,
+    "order": 106,
+    "syllabusNo": 101,
+    "hanzi": "看见",
+    "pinyin": "kànjiàn",
+    "meaningVi": "nhìn thấy",
+    "topic": "Giao tiếp",
+    "example": {
+      "hanzi": "我看见一只猫。",
+      "pinyin": "Wǒ kànjiàn yì zhī māo.",
+      "translationVi": "Tôi nhìn thấy một con mèo."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-219",
+    "level": 1,
+    "order": 107,
+    "syllabusNo": 219,
+    "hanzi": "问",
+    "pinyin": "wèn",
+    "meaningVi": "hỏi",
+    "topic": "Giao tiếp",
+    "example": {
+      "hanzi": "我问老师。",
+      "pinyin": "Wǒ wèn lǎoshī.",
+      "translationVi": "Tôi hỏi giáo viên."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-220",
+    "level": 1,
+    "order": 108,
+    "syllabusNo": 220,
+    "hanzi": "问题",
+    "pinyin": "wèntí",
+    "meaningVi": "câu hỏi; vấn đề",
+    "topic": "Giao tiếp",
+    "example": {
+      "hanzi": "我有一个问题。",
+      "pinyin": "Wǒ yǒu yí ge wèntí.",
+      "translationVi": "Tôi có một câu hỏi."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-288",
+    "level": 1,
+    "order": 109,
+    "syllabusNo": 288,
+    "hanzi": "知道",
+    "pinyin": "zhīdào",
+    "meaningVi": "biết",
+    "topic": "Giao tiếp",
+    "example": {
+      "hanzi": "我知道他的名字。",
+      "pinyin": "Wǒ zhīdào tā de míngzi.",
+      "translationVi": "Tôi biết tên anh ấy."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-171",
+    "level": 1,
+    "order": 110,
+    "syllabusNo": 171,
+    "hanzi": "认识",
+    "pinyin": "rènshi",
+    "meaningVi": "quen; biết (một người)",
+    "topic": "Giao tiếp",
+    "example": {
+      "hanzi": "我认识这个老师。",
+      "pinyin": "Wǒ rènshi zhège lǎoshī.",
+      "translationVi": "Tôi quen giáo viên này."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-208",
+    "level": 1,
+    "order": 111,
+    "syllabusNo": 208,
+    "hanzi": "天气",
+    "pinyin": "tiānqì",
+    "meaningVi": "thời tiết",
+    "topic": "Thời tiết",
+    "example": {
+      "hanzi": "今天天气很好。",
+      "pinyin": "Jīntiān tiānqì hěn hǎo.",
+      "translationVi": "Hôm nay thời tiết rất đẹp."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-169",
+    "level": 1,
+    "order": 112,
+    "syllabusNo": 169,
+    "hanzi": "热",
+    "pinyin": "rè",
+    "meaningVi": "nóng",
+    "topic": "Thời tiết",
+    "example": {
+      "hanzi": "中午很热。",
+      "pinyin": "Zhōngwǔ hěn rè.",
+      "translationVi": "Buổi trưa rất nóng."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-109",
+    "level": 1,
+    "order": 113,
+    "syllabusNo": 109,
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "meaningVi": "lạnh",
+    "topic": "Thời tiết",
+    "example": {
+      "hanzi": "今天很冷。",
+      "pinyin": "Jīntiān hěn lěng.",
+      "translationVi": "Hôm nay rất lạnh."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-227",
+    "level": 1,
+    "order": 114,
+    "syllabusNo": 227,
+    "hanzi": "下雨",
+    "pinyin": "xià yǔ",
+    "meaningVi": "trời mưa",
+    "topic": "Thời tiết",
+    "example": {
+      "hanzi": "外边下雨了。",
+      "pinyin": "Wàibian xià yǔ le.",
+      "translationVi": "Ngoài trời mưa rồi."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-267",
+    "level": 1,
+    "order": 115,
+    "syllabusNo": 267,
+    "hanzi": "雨",
+    "pinyin": "yǔ",
+    "meaningVi": "mưa",
+    "topic": "Thời tiết",
+    "example": {
+      "hanzi": "今天有雨。",
+      "pinyin": "Jīntiān yǒu yǔ.",
+      "translationVi": "Hôm nay có mưa."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-251",
+    "level": 1,
+    "order": 116,
+    "syllabusNo": 251,
+    "hanzi": "雪",
+    "pinyin": "xuě",
+    "meaningVi": "tuyết",
+    "topic": "Thời tiết",
+    "example": {
+      "hanzi": "外边有雪。",
+      "pinyin": "Wàibian yǒu xuě.",
+      "translationVi": "Ngoài trời có tuyết."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-12",
+    "level": 1,
+    "order": 117,
+    "syllabusNo": 12,
+    "hanzi": "病",
+    "pinyin": "bìng",
+    "meaningVi": "bệnh; bị ốm",
+    "topic": "Sức khỏe",
+    "example": {
+      "hanzi": "他病了。",
+      "pinyin": "Tā bìng le.",
+      "translationVi": "Anh ấy bị ốm rồi."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-183",
+    "level": 1,
+    "order": 118,
+    "syllabusNo": 183,
+    "hanzi": "生病",
+    "pinyin": "shēngbìng",
+    "meaningVi": "bị ốm; mắc bệnh",
+    "topic": "Sức khỏe",
+    "example": {
+      "hanzi": "今天老师生病了。",
+      "pinyin": "Jīntiān lǎoshī shēngbìng le.",
+      "translationVi": "Hôm nay giáo viên bị ốm."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-256",
+    "level": 1,
+    "order": 119,
+    "syllabusNo": 256,
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "meaningVi": "bác sĩ",
+    "topic": "Sức khỏe",
+    "example": {
+      "hanzi": "医生在医院。",
+      "pinyin": "Yīshēng zài yīyuàn.",
+      "translationVi": "Bác sĩ ở bệnh viện."
+    },
+    "reviewed": true
+  },
+  {
+    "id": "hsk1-257",
+    "level": 1,
+    "order": 120,
+    "syllabusNo": 257,
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "meaningVi": "bệnh viện",
+    "topic": "Sức khỏe",
+    "example": {
+      "hanzi": "我去医院看病。",
+      "pinyin": "Wǒ qù yīyuàn kànbìng.",
+      "translationVi": "Tôi đến bệnh viện khám bệnh."
+    },
+    "reviewed": true
+  }
+]

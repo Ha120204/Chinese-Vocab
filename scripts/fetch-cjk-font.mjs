@@ -1,5 +1,6 @@
-import { readFile, mkdir, writeFile } from 'node:fs/promises';
-const words=JSON.parse(await readFile('data/vocab/hsk1-batch1.json','utf8'));
+import { readFile, readdir, mkdir, writeFile } from 'node:fs/promises';
+const files=(await readdir('data/vocab')).filter(name=>/^hsk\d+-batch\d+\.json$/.test(name));
+const words=(await Promise.all(files.map(async file=>JSON.parse(await readFile(`data/vocab/${file}`,'utf8'))))).flat().filter(word=>word.reviewed);
 const characters=[...new Set([...words.flatMap(w=>[...w.hanzi,...w.example.hanzi]),...'学文字日进'])].join('');
 const url=`https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700&text=${encodeURIComponent(characters)}`;
 const css=await (await fetch(url,{headers:{'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}})).text();
