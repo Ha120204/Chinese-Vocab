@@ -1,4 +1,4 @@
-# Học Hán Mỗi Ngày
+# Sổ tay Chữ Hán
 
 Website cá nhân, phi thương mại để học từ vựng tiếng Trung theo **HSK 3.0**, dựa trên đề cương thi công bố tháng 11/2025. HSK1 có **300 mục**; 120 mục đầu đã được biên soạn và duyệt theo thứ tự học đề xuất, đủ 12 ngày. HSK2 sẽ bổ sung sau.
 
@@ -42,4 +42,14 @@ Mỗi trình duyệt được học tối đa 10 từ **mới** mỗi ngày theo
 - Tên site, điều hướng và footer: `lib/site-config.ts`.
 - Font Be Vietnam Pro và Noto Serif SC dùng giấy phép SIL OFL; xem `licenses/`.
 
-Phần mẹo nhớ/bình luận hiện là giao diện tĩnh. Supabase và tương tác cộng đồng thuộc M2.
+## Cộng đồng M2
+
+1. Chạy `supabase/migrations/20261110_community.sql` trong Supabase SQL Editor.
+2. Chạy `supabase/tests/rls.sql` trong SQL Editor. File này kiểm tra quyền anon, trạng thái `published` và rollback dữ liệu thử.
+3. Trong Supabase **API Settings → Exposed schemas**, chỉ giữ `public` (không thêm `private`). RPC nằm ở `public` nhưng chỉ `service_role` được gọi; các bảng `private.*` không có quyền truy cập trực tiếp.
+4. Cấu hình `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, `SUPABASE_SECRET_KEY`, `BROWSER_HMAC_SECRET`, `IP_HMAC_SECRET`, `CRON_SECRET`. Hai HMAC secret nên là chuỗi ngẫu nhiên độc lập, ít nhất 32 ký tự. Không đưa secret vào biến `NEXT_PUBLIC_`.
+5. Chạy `npm run check:m2` khi migration đã hoàn tất. Cron Vercel gọi `/api/health` mỗi ngày với `Authorization: Bearer <CRON_SECRET>` để truy vấn DB và dọn rate bucket hết hạn.
+
+Để hậu kiểm, mở **Supabase Table Editor**, chọn schema **private**, rồi xem bảng `reports` mới nhất. Mỗi hàng có `content_type` và `content_id`; tìm hàng tương ứng trong schema **public** (`tips`, `word_comments`, `questions`, `answers`). Nếu vi phạm, đổi cột `status` của nội dung đó từ `published` sang `hidden` và lưu. RLS sẽ ngừng hiển thị bài; câu trả lời của câu hỏi bị ẩn cũng không còn hiển thị. Báo cáo chỉ lưu vào bảng `private.reports`, không gửi email.
+
+Nội dung mới hiển thị ngay và được hậu kiểm. Không có đăng nhập hoặc trang admin. Anon chỉ được đọc các hàng `published`; mọi thao tác ghi đi qua Route Handler với zod, honeypot, HMAC và giới hạn lượt gửi bằng RPC nguyên tử.

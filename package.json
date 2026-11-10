@@ -1,5 +1,5 @@
 {
-  "name": "hoc-han-moi-ngay",
+  "name": "so-tay-chu-han",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,10 +13,13 @@
     "vocab:schedule": "node scripts/vocab-schedule.mjs",
     "test:date": "node scripts/check-date.mjs",
     "test:flow": "node scripts/check-m1b.cjs",
-    "test:production": "node scripts/check-production.cjs"
+    "test:production": "node scripts/check-production.cjs",
+    "check:m2": "node scripts/check-m2.cjs",
+    "check:m2:ui": "node scripts/check-m2-ui.cjs"
   },
   "dependencies": {
     "@next/third-parties": "latest",
+    "@supabase/supabase-js": "^2.119.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
