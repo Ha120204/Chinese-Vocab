@@ -33,28 +33,29 @@ export function useProgress(){return useSyncExternalStore(subscribe,read,()=>emp
 function save(next:Progress){cache=schema.parse(next);loaded=true;localStorage.setItem(key,JSON.stringify(cache));emit();}
 function plusDays(date:string,n:number){const d=new Date(`${date}T00:00:00Z`);d.setUTCDate(d.getUTCDate()+n);return d.toISOString().slice(0,10);}
 export function previousDate(date:string){return plusDays(date,-1);}
-function withActivity(progress:Progress,today:string){
+function withActivity(progress:Progress,today:string,level:number){
   if(progress.activityDays.includes(today)) return progress.activityDays;
-  trackEvent('streak_day',{level:'HSK1'});
+  trackEvent('streak_day',{level:`HSK${level}`});
   return [...progress.activityDays,today].sort();
 }
 export function markLearned(word:VocabWord,today=vietnamDate()){
   const p=read(); if(p.records[word.id] || (p.newByDay[today]??0)>=10) return false;
-  save({...p,records:{...p.records,[word.id]:{box:1,due:plusDays(today,1),learnedAt:today}},newByDay:{...p.newByDay,[today]:(p.newByDay[today]??0)+1},activityDays:withActivity(p,today)});
-  trackEvent('learn_word',{word_id:word.id,level:'HSK1'});
+  save({...p,records:{...p.records,[word.id]:{box:1,due:plusDays(today,1),learnedAt:today}},newByDay:{...p.newByDay,[today]:(p.newByDay[today]??0)+1},activityDays:withActivity(p,today,word.level)});
+  trackEvent('learn_word',{word_id:word.id,level:`HSK${word.level}`});
   return true;
 }
 const intervals=[1,3,7,14,30,60];
 export function reviewWord(wordId:string,correct:boolean,today=vietnamDate()){
   const p=read(); const old=p.records[wordId]; if(!old)return;
   const box=correct ? Math.min(6,old.box+1) : 1;
-  save({...p,records:{...p.records,[wordId]:{...old,box,due:plusDays(today,intervals[box-1])}},activityDays:withActivity(p,today)});
+  save({...p,records:{...p.records,[wordId]:{...old,box,due:plusDays(today,intervals[box-1])}},activityDays:withActivity(p,today,p.level)});
 }
 export function addQuiz(){const p=read();save({...p,quizCount:p.quizCount+1});}
+export function setLevel(level:1|2){const p=read();if(p.level!==level)save({...p,level});}
 export function getLesson(words:VocabWord[],p:Progress,today=vietnamDate()){
   const remaining=Math.max(0,10-(p.newByDay[today]??0));
   const next=words.filter(w=>w.level===p.level && !p.records[w.id]).slice(0,remaining);
-  const due=words.filter(w=>p.records[w.id] && p.records[w.id].due<=today);
+  const due=words.filter(w=>w.level===p.level && p.records[w.id] && p.records[w.id].due<=today);
   return {newWords:next,dueWords:due,remaining};
 }
 export function getStreak(days:string[],today=vietnamDate()){

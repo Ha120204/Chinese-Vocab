@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit",
     "vocab:seed": "node scripts/seed-vocab.mjs",
     "vocab:seed:batch2": "node scripts/seed-vocab-batch2.mjs",
+    "vocab:seed:hsk2:batch1": "node scripts/seed-vocab-hsk2-batch1.mjs",
     "vocab:review": "node scripts/vocab-review.mjs",
     "vocab:schedule": "node scripts/vocab-schedule.mjs",
     "og:fonts": "node scripts/generate-og-fonts.mjs",
@@ -18,7 +19,8 @@
     "check:m2": "node scripts/check-m2.cjs",
     "check:m2:ui": "node scripts/check-m2-ui.cjs",
     "check:m3:ui": "node scripts/check-m3-ui.cjs",
-    "check:speech": "node scripts/check-speech.cjs"
+    "check:speech": "node scripts/check-speech.cjs",
+    "check:hsk2": "node scripts/check-hsk2.cjs"
   },
   "dependencies": {
     "@next/third-parties": "latest",

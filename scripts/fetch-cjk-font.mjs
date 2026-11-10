@@ -1,4 +1,5 @@
 import { readFile, readdir, mkdir, writeFile } from 'node:fs/promises';
+import * as fontkit from 'fontkit';
 const files=(await readdir('data/vocab')).filter(name=>/^hsk\d+-batch\d+\.json$/.test(name));
 const words=(await Promise.all(files.map(async file=>JSON.parse(await readFile(`data/vocab/${file}`,'utf8'))))).flat().filter(word=>word.reviewed);
 const characters=[...new Set([...words.flatMap(w=>[...w.hanzi,...w.example.hanzi]),...'学文字日进'])].join('');
@@ -9,6 +10,10 @@ if(!urls.length)throw new Error(`Không lấy được WOFF2 từ Google Fonts: 
 await mkdir('public/fonts',{recursive:true});
 for(const [i,fontUrl] of urls.entries()){
   const res=await fetch(fontUrl); if(!res.ok)throw new Error(`Font HTTP ${res.status}`);
-  await writeFile(`public/fonts/noto-serif-sc-${i}.woff2`,Buffer.from(await res.arrayBuffer()));
+  const buffer=Buffer.from(await res.arrayBuffer());
+  const font=fontkit.create(buffer);
+  const missing=[...characters].filter(char=>!font.hasGlyphForCodePoint(char.codePointAt(0)));
+  if(missing.length)throw new Error(`WOFF2 ${i} thiếu glyph: ${missing.join('')}`);
+  await writeFile(`public/fonts/noto-serif-sc-${i}.woff2`,buffer);
 }
 console.log(`Saved ${urls.length} subset WOFF2 files; ${characters.length} CJK characters`);

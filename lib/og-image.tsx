@@ -10,9 +10,9 @@ const assets = Promise.all([
   readFile(join(process.cwd(), 'public/icon-192.png')),
 ]);
 
-type OgCard = { title: string; subtitle: string; hanzi?: string; pinyin?: string; meaning?: string };
+type OgCard = { title: string; subtitle: string; hanzi?: string; pinyin?: string; meaning?: string; level?: number };
 
-export async function createOgImage({ title, subtitle, hanzi, pinyin, meaning }: OgCard) {
+export async function createOgImage({ title, subtitle, hanzi, pinyin, meaning, level }: OgCard) {
   const [vietnameseFont, hanziFont, logo] = await assets;
   const logoUrl = `data:image/png;base64,${logo.toString('base64')}`;
   const wordCard = Boolean(hanzi);
@@ -21,7 +21,7 @@ export async function createOgImage({ title, subtitle, hanzi, pinyin, meaning }:
       {!wordCard && <><div style={{ position: 'absolute', width: 530, height: 530, borderRadius: 265, background: '#1e40af', top: -180, right: -120 }}/><div style={{ position: 'absolute', width: 410, height: 410, borderRadius: 205, background: '#006a61', bottom: -285, right: 90 }}/></>}
       <div style={{ display: 'flex', alignItems: 'center', gap: 18 }}><img src={logoUrl} alt="" style={{ width: 78, height: 78 }}/><span style={{ fontSize: 26, color: wordCard ? '#00288e' : '#e9edff' }}>{siteConfig.name}</span></div>
       {wordCard ? <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', flex: 1, paddingLeft: 14 }}>
-        <span style={{ color: '#006a61', fontSize: 26, letterSpacing: 3 }}>HSK 3.0 · HSK1</span>
+        <span style={{ color: '#006a61', fontSize: 26, letterSpacing: 3 }}>HSK 3.0 · HSK{level??1}</span>
         <span style={{ fontFamily: 'Noto Serif SC', color: '#00288e', fontSize: hanzi && [...hanzi].length > 3 ? 132 : 174, lineHeight: 1.15, marginTop: 6 }}>{hanzi}</span>
         <span style={{ fontFamily: 'Noto Serif SC', color: '#006a61', fontSize: 42, marginTop: 6 }}>{pinyin}</span>
         <span style={{ fontSize: meaning && meaning.length > 34 ? 38 : 48, marginTop: 18 }}>{meaning}</span>

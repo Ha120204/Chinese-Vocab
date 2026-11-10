@@ -6,7 +6,7 @@ const words = (await Promise.all(files.map(async name => JSON.parse(await readFi
 const unique = value => [...new Set([...value])].join('');
 const hanzi = unique(words.map(word => `${word.hanzi}${word.example.hanzi}${word.pinyin}`).join('') + '汉字学问');
 const copy = [
-  'Sổ tay Chữ Hán', 'HSK 3.0 · HSK1', 'HSK 3.0 · HỌC MỖI NGÀY',
+  'Sổ tay Chữ Hán', 'HSK 3.0 · HSK1', 'HSK 3.0 · HSK2', 'HSK 3.0 · HỌC MỖI NGÀY',
   'Học chữ Hán mỗi ngày', 'Mỗi ngày một chút, nhớ thật lâu',
   'Thư viện từ', 'Tìm chữ Hán, pinyin và nghĩa tiếng Việt',
   'Hỏi đáp cộng đồng', 'Cùng hỏi, cùng giải đáp, cùng tiến bộ',

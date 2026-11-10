@@ -13,5 +13,5 @@ export default async function OpenGraphImage({ params }: Props) {
   const { id } = await params;
   const word = getWord(id);
   if (!word) notFound();
-  return createOgImage({ title: word.hanzi, subtitle: word.meaningVi, hanzi: word.hanzi, pinyin: word.pinyin, meaning: word.meaningVi });
+  return createOgImage({ title: word.hanzi, subtitle: word.meaningVi, hanzi: word.hanzi, pinyin: word.pinyin, meaning: word.meaningVi, level: word.level });
 }

@@ -52,7 +52,7 @@ export const siteConfig = {
     },
     bottom: {
       leftNote: 'Dự án cá nhân, phi thương mại',
-      right: 'HSK 3.0 · HSK1: 300 mục · HSK2 sắp có · Số liệu truy cập đo bằng Google Analytics',
+      right: 'HSK 3.0 · HSK1: 300 mục · HSK2: 200 mục · Số liệu truy cập đo bằng Google Analytics',
     },
   } satisfies FooterConfig,
 } as const;
